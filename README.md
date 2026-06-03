@@ -60,8 +60,17 @@ Administration
 
 ## System Architecture
 
+```text
 HospitalManagementSystem
-│
+│── models
+│── interfaces
+│── services
+│── data
+│── utils
+└── main.cpp
+
+Class Hierarchy
+
 ├── User
 │   ├── Patient
 │   ├── Doctor
@@ -85,7 +94,7 @@ HospitalManagementSystem
 │
 ├── FileManager
 └── Validator
-
+```
 
 ## Technical Skills Demonstrated
 - Object-oriented Programming (OOP)
