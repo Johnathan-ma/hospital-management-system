@@ -96,6 +96,7 @@ Class Hierarchy
 └── Validator
 ```
 
+
 ## Technical Skills Demonstrated
 - Object-oriented Programming (OOP)
 - Inheritance and Polymorphism
@@ -113,6 +114,6 @@ Class Hierarchy
 - MySQL adtabase integration
 - User authentication
 - GUI implementation
-- REST API backend
+- REST Application Programming Interface (API) backend
 - Cloud deployment
 - Data analytics dashboard
