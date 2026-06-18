@@ -106,12 +106,12 @@ Class Hierarchy
 - Software Architecture Design
 - Input Validation
 - Error Handling
-- Business Workflow Modeling
+- Business Workflow Modelling
 - Git and Version Control
 
 
 ## Feature Enhancements (optional)
-- MySQL adtabase integration
+- MySQL database integration
 - User authentication
 - GUI implementation
 - REST Application Programming Interface (API) backend
