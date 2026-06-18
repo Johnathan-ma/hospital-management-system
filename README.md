@@ -282,11 +282,11 @@ The Data Access Layer handles CSV file reading and writing.
 The CSV Storage Layer provides persistent data storage across program executions.
 
 
-## Class Hierarchy
+## Class Structure
 
 ```text
 User
-├── Patient
+├── Patientl6nn
 └── Staff
     ├── Doctor
     ├── Receptionist
