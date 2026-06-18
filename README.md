@@ -190,7 +190,7 @@ To run the project, clone the repository and open it in Visual Studio.
 Build instructions will be updated as the implementation progresses.
 
 Planned build options:
-- Visual Studio 2026
+- Visual Studio 2022 / 2026
 - g++ command-line compilation
 
 
@@ -225,11 +225,11 @@ Hospital Management System
 
 ┌──────────────────────────────┐
 │        Interface Layer        │
-│PatientInterface              │
-│ReceptionistInterface         │
-│DoctorInterface               │
-│LabInterface                  │
-│AdminInterface                │
+│ PatientInterface             │
+│ ReceptionistInterface        │
+│ DoctorInterface              │
+│ LabInterface                 │
+│ AdminInterface               │
 └───────────────↓──────────────┘
 
 ┌──────────────────────────────┐
@@ -253,7 +253,7 @@ Hospital Management System
 ┌──────────────────────────────┐
 │       Data Access Layer       │
 │ FileManager                  │
-│ Validator                    │
+│ CSVReader / CSVWriter        │
 └───────────────↓──────────────┘
 
 ┌──────────────────────────────┐
@@ -267,6 +267,13 @@ Hospital Management System
 │ bills.csv                    │
 │ payments.csv                 │
 └──────────────────────────────┘
+
+┌──────────────────────────────┐
+│         Utility Layer         │
+│ Validator                    │
+│ DateTime                     │
+│ IDGenerator                  │
+└──────────────────────────────┘
 ```
 The Interface Layer handles menus and user input.
 The Business Service Layer manages application rules and workflows.
@@ -275,7 +282,6 @@ The Data Access Layer handles CSV file reading and writing.
 The CSV Storage Layer provides persistent data storage across program executions.
 
 
-``` markdown
 ## Class Hierarchy
 
 ```text
